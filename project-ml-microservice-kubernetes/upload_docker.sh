@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=<your docker ID/path>
 
 # Step 2:  
 # Authenticate & tag
@@ -13,3 +13,4 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
+docker push rajeshbabuy/microservice-kebernetes:v1.0.0
